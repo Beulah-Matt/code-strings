@@ -41,20 +41,103 @@ body {
     margin-left: 192px;
 
  }
- .header .navbar .spread ul li{
+ .header .navbar .menu ul li{
+      
     display: inline-block;
     margin-right: 35px;
     align-items: center;
+    padding: 20px;
+    font-size: 20;
  }
- .header .navbar .spread ul li a{
+ .navbar a{
     color: rgb(233, 222, 222);
-    font-size: 30px;
+    font-size: 17px;
     font-weight: 500;
     letter-spacing: 1px;
  }
- .header .Contact{
+ .header .contact-info{
     margin-left: 400px;
  }
- .header .Contact ul{
+ .header .contact-info ul{
     margin-left: 41px;
+ }
+ .header .contact-info {
+    display: inline-block;
+ }
+ .header .contact-info a{
+    color: rgb(233, 222, 222);
+    font-size: 17px;
+    transition: all 0.3s;
+ }
+ .header .contact-info  a:hover{
+    color: aqua;
+ }  
+ .header .contact-info  a.sep {
+    margin: 0 28px;
+    opacity: 0.3;
+}
+.header .flag {
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    color: bisque;
+}
+.header .flag .app-text h1{
+    font-size: 80px;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 720;
+    line-height: 1.3;
+}
+.header .flag .app-text h1 span{
+    color: palevioletred;
+}
+.header .flag .app-text .button-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+.header .flag .app-text .button-group .play-button{
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+}
+.header .flag .app-text .button-group span{
+    font-size: 20px;
+    margin-left: 24px;
+    cursor: pointer;
+    color: bisque;
+}
+.header .flag .app-text .button-group .play-button-inner i{
+    font-size: 15px;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    padding-left: 4px;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease-out;
+}
+#about {
+    width: 800px;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: .103em;
+    margin-bottom: 15px;
+    color: white;
+}
+p span {
+   display: inline-block;
+   font-size: 1em;
+   line-height: 1em;
+   letter-spacing: .35em;
+   vertical-align: top;
+   padding-top: 10px;
  }
